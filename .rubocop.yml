@@ -1,0 +1,13 @@
+require: rubocop-rails
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'libs/**/*'
+    - 'vendor/**/*'
+    - 'spec/**/*'
+    - 'tmp/**/*'
+  NewCops: enable
+
+Rails:
+  Enabled: true
