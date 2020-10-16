@@ -23,7 +23,7 @@ RSpec.describe Article, type: :model do
       invalid_article = FactoryBot.build :article, slug: article.slug
       expect(invalid_article).not_to be_valid
     end
-  end  
+  end
 
   describe '.recent' do
     it 'should list recent article first' do
